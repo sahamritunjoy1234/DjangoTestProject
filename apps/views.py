@@ -11,4 +11,5 @@ def home3(request):
     print("Another test")
     print("Yet another test from test-branch-1")
     print("test from Main branch")
+    print("test from test-branch-1")
     return HttpResponse("Welcome to MyProject!")
