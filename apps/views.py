@@ -8,8 +8,4 @@ def home(request):
 
 def home3(request):
     print("Just a test")
-    print("Another test")
-    print("Yet another test from test-branch-1")
-    print("test from Main branch")
-    print("test from test-branch-1")
     return HttpResponse("Welcome to MyProject!")
