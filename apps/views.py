@@ -5,8 +5,5 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse("Welcome to MyProject!")
 
-
-def home3(request):
-    print("Just a test")
-    print("Another test From main branch")
-    return HttpResponse("Welcome to MyProject!")
+def test_branch_1(request):
+    return HttpResponse("This is a test branch view from the test-branch-1.")
